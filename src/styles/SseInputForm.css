@@ -1,0 +1,45 @@
+.input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.request-toggle-btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.request-toggle-btn.not-requesting {
+    background-color: #28a745;
+}
+
+.request-toggle-btn.not-requesting:hover {
+    background-color: #218838;
+}
+
+.request-toggle-btn.requesting {
+    background-color: #dc3545;
+}
+
+.request-toggle-btn.requesting:hover {
+    background-color: #bd2130;
+}
+
+.input-field:disabled {
+    background-color: #e9ecef;
+}

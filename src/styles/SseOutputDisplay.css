@@ -1,0 +1,12 @@
+.output-display {
+    border: 1px solid #ddd;
+    padding: 20px;
+    min-height: 800px;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
